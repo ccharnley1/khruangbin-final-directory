@@ -1,0 +1,205 @@
+/* Stylesheet draft */
+
+
+/*  HTML5 BROWSER COMPATIBILITY */
+
+article, aside, figcaption,
+figure, footer, header, hgroup,
+menu, nav, section {
+
+    display: block;
+}
+#container {
+position: relative;
+width: 1400px
+
+}
+
+/* HEADER SECTION */
+
+header {
+  /*color: rgba(253,230,171,100)*/
+  font-family: "futura",
+   sans-serif;
+   font-size: 1.25;
+    background: rgba(255, 255, 255, 1.0);
+    box-shadow: 2.5px 2.5px rgba(0,0,0,0.30)
+}
+/* the whole menu */
+
+#masthead {
+
+position: relative;
+width: 1200px;
+left: 200px;
+height: 200px;
+
+}
+ #menu {
+   /*color: rgba(253,230,171,100)*/
+   font-family: "futura",
+    sans-serif;
+    font-size: 1.25;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+/* Horizontal list menu */
+.top-link {
+  display: inline-block;
+  float: none;
+  position: relative;
+  font-family: "futura", sans-serif;
+  font-size: 1.5;
+  font-weight: normal;
+  text-shadow: 2.5px 2.5px rgba(0,0,0,0.30);
+  text-decoration: none;
+}
+
+div.top-link-homeicon {
+  display: inline-block; /* home airplane icon item*/
+  /*width: 300px;*/
+  /*color: rgba(0,0,0,1);*/
+
+height: 125px;
+width: 200px;
+border: 2px solid black;
+outline: #4CAF50 solid 10px;
+padding: 10px;
+margin: 40px;
+text-align: center;
+
+  /*background-color: powderblue;*/
+  /*color: var(--text-color);*/
+  /*font-family: "Aileron", sans-serif;
+  font-variant-caps: normal;
+  font-style: normal;
+  text-decoration: none;
+  padding: 0.5em 0.5em;
+  line-height: 0.5rem;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom:10px;
+  background-color: transparent;*/
+
+}
+img.planeicon {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0;
+  width: 40%;
+}
+/*Style for menu links text*/
+.top-link a {
+  display: block; /* links fill the block*/
+  width: 1000px;
+   color: rgba(0,0,0,1.0);
+  /*color: var(--text-color);*/
+  width: 100%;
+  padding: 1em 1.2em;
+  line-height: 1rem;
+  text-align: left;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/*Hover state for top level links*/
+.top-link:hover a {
+  background: white;
+  color: rgba(0, 100, 255, 0.5);
+}
+
+/* format from w3 site on last childul li:last-child {
+    margin-left: 50rem;
+}*/
+
+/* ==== SET BG IMAGE HOME PAGE  ====  */
+
+body.home-body{
+  background-image: url(../images/sierra.jpg);
+  /*background-color: #cccccc; */
+  /* Used if the image is unavailable */
+  height: 2400px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+
+}
+/* End set bg image Home page */
+
+/* ==== SET BG IMAGE ABOUT PAGE  ====  */
+
+body.about-body{
+  background-image: url(../images/mountain-about.png);
+  /*background-color: #cccccc; */
+  /* Used if the image is unavailable */
+  height: 2400px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+
+}
+/* End set bg image Home page */
+
+/*  ==== SETS COLOR OF HEADLINE ABOUT PAGE  ==== */
+
+h1.about-main {
+  font-family: "Futura", sans-serif;
+  font-size: 4.5em;
+  color: rgba(253,230,171,100);
+  font-weight: normal;
+
+}
+/* end of Headline Color Set About Page  */
+
+/* ==== SETS FORMAT FOR ARTICLE1 SECTION ABOUT PAGE ====*/
+
+section.article1 {
+  height: 500px;
+  position: absolute;
+  top: 400px;
+  left: 200px;
+background-color: rgba(245,231,151,100);
+width: 1200px
+}
+
+img.trio-photo {
+  position: absolute;
+  left: 20px;
+  height: 350px
+    width: 550px;
+    border: 0px;
+    padding: 0px;
+    margin: 20px;
+}
+
+#page {
+  font-family: "American typewriter", serif;
+  font-size: 1.25em;
+  line-height: 1.6em;
+}
+
+div.aboutsection1 {
+  /*font-family: "American typewriter", serif;
+  font-size: 1.25em;
+  line-height: 1.6em;*/
+  position: absolute;
+  left: 600px;
+}
+
+div.intro-close {
+  position: absolute;
+  height: 50px;
+  bottom: 10px;
+  left: 20px;
+}
+/*div.absolute {
+  position: absolute;
+  top: 400px;
+  right: 0px;
+  border: 3px solid #73AD21
+
+}*/
