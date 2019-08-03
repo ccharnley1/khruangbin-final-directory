@@ -61,7 +61,6 @@ div.top-link-homeicon {
   display: inline-block; /* home airplane icon item*/
   /*width: 300px;*/
   /*color: rgba(0,0,0,1);*/
-
 height: 125px;
 width: 200px;
 border: 2px solid black;
@@ -168,6 +167,7 @@ width: 1200px
 
 img.trio-photo {
   position: absolute;
+  float: left;
   left: 20px;
   height: 350px
     width: 550px;
