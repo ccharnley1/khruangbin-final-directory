@@ -135,9 +135,9 @@ body.home-body{
   /*background-color: #cccccc; */
   /* Used if the image is unavailable */
   height: 2400px; /* You must set a specified height */
-  background-position: center; /* Center the image */
+  background-position: left; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
+  /*background-size: cover;*/
   max-width: 1400px;
 
 }
@@ -242,7 +242,7 @@ h1.about-main {
 
 /* ==== 1st TEXT BLOCK SECTION ABOUT PAGE STYLEING ==== */
 section.article1 {
-  height: 400px;
+  height: 560px;
   position: relative;
   left: 150px;
   top: 0px;
@@ -319,7 +319,7 @@ div.intro-close {
 
 /* ==== 2ND TEXT BLOCK SECTION ABOUT PAGE STYLEING ==== */
 section.article2 {
-  height: 420px;
+  height: 480px;
   position: relative;
   left: 150px;
   top: 0px;
