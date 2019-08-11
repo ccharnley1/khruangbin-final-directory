@@ -10,7 +10,7 @@ menu, nav, section {
     display: block;
 }
 #container {
-position: absolute;
+position: relative;
 max-width: 1400px;
 
 }
@@ -18,7 +18,7 @@ max-width: 1400px;
 /* HEADER SECTION */
 
 header {
-  /*color: rgba(253,230,171,100)*/
+  color: rgba(253,230,171,100)
   /*font-family: "futura",
    sans-serif;
    font-size: 1.8em;*/
@@ -31,14 +31,17 @@ width: 1200px;
 #masthead {
 
 position: relative;
+
 width: 1200px;
-left: 200px;
+margin-left: 200px;
+margin-right: auto;
+/*position: 50% 0%;*/
 height: 180px;
 
 }
  #menu {
-   /*color: rgba(253,230,171,100)*/
-   font-family: "futura",
+   color: rgba(253,230,171,100)
+   font-family: "Futura",
     sans-serif;
     font-size: 1.5em;
   text-align: center;
@@ -94,11 +97,25 @@ img.planeicon {
   /*box-shadow: 2px 2px 3px */;
 }
 
-
-img.planelogo {
+div.home-logo {
   /*transform: scaleX(300px);
   transform: scaleY(200px);*/
-  position: relative;
+  /*position: relative;
+  display: block;*/
+  margin: auto;
+  width: 50%;
+  padding: 100px;
+  /*top: 360px;
+margin-left: 45%;*/
+
+}
+
+div.plane-logo {
+  /*transform: scaleX(300px);
+  transform: scaleY(200px);*/
+  margin: auto;
+  width: 50%;
+  padding: 200px;
   /*top: 360px;
 margin-left: 45%;*/
 
@@ -135,9 +152,11 @@ body.home-body{
   /*background-color: #cccccc; */
   /* Used if the image is unavailable */
   height: 2400px; /* You must set a specified height */
-  background-position: left; /* Center the image */
+/* Center the image */
+
   background-repeat: no-repeat; /* Do not repeat the image */
   /*background-size: cover;*/
+    background-position: 50% 0%;
   max-width: 1400px;
 
 }
@@ -148,12 +167,15 @@ body.home-body{
 /*==== STYLE HOME NAV MENU  ====*/
 #menu-home {
   color: rgba(253,230,171,100)
-  font-family: "futura",
+  font-family: "Futura",
    sans-serif;
-   font-size: 1.6em;
- text-align: center;
+   font-size: 1.8em;
+   font-weight: lighter;
+ text-align: left;
+ position: relative;
+ left: 40%;
  /*width: 100%;*/
- margin: 50px 20px 20px 200px;
+ margin: 10px 0px 10px 10px;
  padding-top: 75px;
 }
 
@@ -164,7 +186,8 @@ header.header-home {
 
   .top-link-home a {
     display: block; /* links fill the block*/
-    width: 1200px;
+    position: relative;
+    width: 100%;
     color: rgba(253,230,171,100);
     /*color: var(--text-color);*/
     width: 100%;
@@ -191,17 +214,13 @@ header.header-home {
     text-decoration: none;
   }
 
-}
-
-
-
 /*==== End Style Nav Menu for Home Page  =====*/
 
 h1.home-header {
   font-family: "Futura", sans-serif;
   font-size: 2.0em;
   color: rgba(253,230,171,100);
-  font-weight: lighter;
+  font-weight: lighter;*/
   /*display: inline-block;
   float: none;
   position: absolute;
@@ -223,7 +242,7 @@ body.about-body{
 
 
 }
-/* End set bg image Home page */
+/* End Set BG image About Page */
 
 /*  ==== SETS COLOR OF HEADLINE ABOUT PAGE  ==== */
 
@@ -240,7 +259,7 @@ h1.about-main {
 
 /* end of Headline Color Set About Page  */
 
-/* ==== 1st TEXT BLOCK SECTION ABOUT PAGE STYLEING ==== */
+/* ==== 1st TEXT BLOCK SECTION ABOUT PAGE STYLING ==== */
 section.article1 {
   height: 560px;
   position: relative;
@@ -383,7 +402,7 @@ font-size: 1.4em;
 .column {
   float: left;
   width: 50%;
-  padding: 10px;
+  padding: 5px;
 }
 
 /* Clear floats after the columns */
@@ -392,11 +411,269 @@ font-size: 1.4em;
   display: table;
   clear: both;
 }
-/*ul.about-list-2 {
-display: block;
-position: absolute;
-left 600px;
+
+ul.band-facts {
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 10px;
+}
+
+li.band-facts {
+    /*show image 2 pixels from top of item */
+    background: url(../images/oval-bullet-point.png)
+      no-repeat 0 1px;
+      padding-bottom: 2px;
+
+      /* bump the text over to make room for
+        the arrow */
+  padding-left: 100px;
+
+}
+
+li.band-fact-details {
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  text-indent: -130px;
+
+}
+
+p.band-fact-details {
+margin-top: -30px;
+margin-left: 0px;
+margin-bottom: 0px;
+padding-top: -30px;
+padding-bottom: 18px;
+padding-left: 10px;
+
+}
+p.band-fact-details2 {
+margin-top: -10px;
+margin-bottom: 0px;
+margin-left: -4px;
+padding-top: -10px;
+padding-bottom: 10px;
+padding-left: 10px;
+
+}
+
+ul.bandmembers {
+  /*show image 2 pixels from top of item */
+  background: url(../images/oval-bullet-point.png)
+    no-repeat 0 1px;
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 10px;
+}
+
+ul.bandmembers-detail {
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 50px;
+}
+p.about-list-font {
+font-size: 1.2em;
+
+}
+
+li.bandmembers {
+  list-style: none;
+  /*show image 2 pixels from top of item */
+  background: url(../images/oval-bullet-point.png)
+    no-repeat 0 1px;
+
+  margin-left: 10px;
+  padding-left: 100px;
+}
+
+li.band-photos {
+list-style: none;
+margin-left: 0px;
+paddling-left: -50px;
+}
+/* End of 3rd Text Block Section About Page Styling */
+/* ==== End of Styling for About Page ==== */
+
+/* ==== BEGIN STYLING FOR DISCOGRAPHY PAGE ===== */
+
+body.discography-body{
+  background-image: url(../images/discography-bg-img-ottercove.png);
+  /*background-color: #cccccc; */
+  /* Used if the image is unavailable */
+  height: 2400px; /* You must set a specified height */
+
+ max-width: 1400px;
+    background-position: 50% 0%;/* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  /*background-size: cover;*/
+
+}
+
+section.discography1 {
+  height: 450px;
+  position: relative;
+  width: 1000px;
+  margin: auto;
+  /*padding: 10px;
+  margin-left: 10px;*/
+  /*left: 200px;*/
+background-color: rgba(255,255,255,1);
+/*width: 1200px;
+margin-top: 20px;
+margin-bottom: 50px;
+margin-right: 20px;
+margin-left: 40px;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 50px;*/
+}
+
+#link1 {
+
+  background-color: white;
+  position: relative;
+  width: 1200px;
+  height: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 15px solid green;
+  padding: 20px;
+  z-index: -1;
+
+}
+#image-block {
+  display: inline-block;
+  /*position: relative;*/
+  margin: auto;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+#image-block img{
+margin: auto;
+padding: 50px;
+
+
+}
+
+ #centered-album-detail {
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+margin: auto;
+border: 15px solid green;
+padding: 10px;
+text-align: center;
+box-shadow: 2.5px 2.5px 3px rgba(0,0,0,0.5);
+
+}
+
+/* img.small {
+  display: block;
+  width=100%;
+ float: left;
+ margin: auto;
+ padding: 50px;
+
+} */
+
+/*#center-image {
+  display: block;
+  width=100%;
+ margin: auto;
+}
+
+#right-image {
+  display: block;
+  width=100%;
+ float: right;
+ padding-bottom: 0px;
 
 }*/
 
-/* End of 3rd Text Block Section About Page Styling */
+div.album-box {
+    display: inline-block;
+  /*  margin-left: auto;
+    margin-right: auto;*/
+    width: 400px;
+    height: 400px;
+    box-shadow: 2.5px 2.5px 3px rgba(0, 0, 0, 1.0);
+}
+
+.album-box img {
+  position: relative;
+  float: left;
+  display: block;
+  padding: 20px;
+}
+/* * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+/*.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} */
+
+/*div.go-away-button {
+  float: right;
+  text-decoration: none;
+   color: rgb (255,0,0);
+
+ } */
+
+table.centered {
+
+    width: 800px;
+    margin: auto;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+caption.album-text {
+  font-family: "Futura", sans-serif;
+  font-size: 1.9em;
+  line-height: 1.8rem;
+  padding: 40px;
+  width: 100%;
+  margin: auto;
+}
+
+
+/* ====TEST FOR DISPLAYING 3 ALBUMS IN DETAIL ====*/
+
+/*.your-class {
+    width: 800px;
+    margin: auto;
+  }
+
+  .your-class img {
+    width: 100%;
+    height: auto;
+    display: block;
+  } */
+
+  /* End Test for Displaying 3 Albums in Detail */
+
+/* End Set BG image About Page */
+
+/* ==== End of Styling for Discgraphy Page ==== */
+
+
+/* ==== BEGIN STYLING FOR MEDIA PAGE ===== */
+/* ==== End of Styling for Media Page ==== */
+
+
+/* ==== BEGIN STYLING FOR MERCHANDISE PAGE ===== */
+/* ==== End of Styling for Merchandise Page ==== */
+
+/* ==== BEGIN STYLING FOR TOUR  PAGE ===== */
+/* ==== End of Styling for Tour Page ==== */

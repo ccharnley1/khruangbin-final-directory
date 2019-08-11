@@ -1,47 +1,303 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8"  />
   <title>Discography</title>
-  <link href="./assets/stylesheets/stylesheet.css" rel="stylesheet"/>
+  <link href="./assets/stylesheets/stylesheet.css" rel="stylesheet"/> -->
   <!--[if lt IE 9]>
     <script src="http:html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-</head>
+<!-- </head>
 <body>
 
   <header>
     <nav>
           <ul id="menu">
-
-            <li class="top-link">
-                <a href="index.html">Khruangbin Icon</a>
-            </li>
-
-            <li class="top-link">
-              <a href="about.html">About</a>
-            </li>
-
-            <li class="top-link">
-                <a href="discography.html">Discography</a>
-            </li>
-
-            <li class="top-link">
-              <a href="merch.html">Merchandise</a>
-            </li>
-
-            <li class="top-link">
-              <a class="media.html" href="#">Media</a>
-              </li>
-
-            <li class="top-link">
-              <a href="tour.html">Tour</a>
-            </li>
-
+            <li class="top-link"><a href="index.html">Khruangbin Icon</a></li>
+            <li class="top-link"><a href="about.html">About</a></li>
+            <li class="top-link"><a href="discography.html">Discography</a></li>
+            <li class="top-link"><a href="merch.html">Merchandise</a></li>
+            <li class="top-link"><a class="media.html" href="#">Media</a></li>
+            <li class="top-link"><a href="tour.html">Tour</a></li>
           </ul>
       </nav>
+  </header> -->
 
-  </header>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8"  />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>About</title>
+        <link href="./assets/stylesheets/stylesheet.css" rel="stylesheet"/>
+      <link href="./assets/stylesheets/slick.css" rel="stylesheet" />
+        <link href="./assets/stylesheets/slick-theme.css" rel="stylesheet" />
+        <style>
+.album-button div {
+  display: none;
+}
+
+.album-button div:target {
+  display: block;
+}
+</style>
+        <!--Import materialize.css-->
+              <!-- <link type="text/css" rel="stylesheet" href="./assets/stylesheets/materialize.min.css"  media="screen,projection"/>
+
+        <style>
+
+                /*body {
+                  background: cornflowerblue;
+                }*/
+                .disc-carousel {
+                  width: 800px;
+                  margin: auto;
+                }
+
+                .disc-carousel img {
+                  width: 100%;
+                  height: auto;
+                  display: block;
+                }
+              </style> -->
+        <!--[if lt IE 9]>
+          <script src="http:html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <script src="./assets/javascripts/jquery.min.js"></script>
+<script src="./assets/javascripts/slick.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    $('.your-class').slick({
+      autoplay: true,
+      autoplaySpeed: 5000,
+      dots: true,
+      // centerMode: true,
+      slidesToShow: 2
+    });
+  });
+</script>
+
+    </head>
+    <body class="discography-body">
+    <div id="container">
+      <div id="page">
+          <!-- ==== START MASTHEAD   ====-->
+          <header id="masthead" role="banner">
+
+
+          <div>
+            <nav>
+
+              <div class="top-link-homeicon">
+                  <a href="index.html">
+                  <img class="textlogo" src="./assets/images/logotype-w-shdw.png"  alt="Khruangbin" >
+                  <img class="planeicon" src="./assets/images/planeicon-w-shdw.png" alt="Khruangbin Home" >
+                </a>
+              </div>
+
+              <!-- SAMPLE MENU FORMAT IN HTML
+  <ul class="nav">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#clients">Our Clients</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+  </ul>
+             End Sample HTML Format Nav menu -->
+
+                  <ul id="menu">
+
+                    <li class="top-link"><a href="about.html">About</a></li>
+                    <li class="top-link"><a href="discography.html">Discography</a></li>
+                    <li class="top-link"><a href="merch.html">Merchandise</a></li>
+                    <li class="top-link"><a href="media.html">Media</a></li>
+                    <li class="top-link"><a href="tour.html">Tour</a></li>
+
+                  </ul>
+              </nav>
+
+          </div>
+        </header>
+        <!-- end #masthead  -->
+    <div id="main" role="main">
+      <h1 class="about-main">Discography</h1>
+      <section class="discography1">
+        <h3>Discography content area 1</h3>
+        <div id="carousel">
+
+          <div class="disc-carousel" >
+              <div>
+                  <a href="#link1"><img src="./assets/images/lightbox/med-thumb1-contodoalmundo.png" /></a>
+              </div>
+              <div>
+                  <img src="./assets/images/lightbox/med-thumb2-universesmiles.png" />
+              </div>
+              <div>
+                  <img src="./assets/images/lightbox/med-thumb3-hastaelcielo.png" />
+              </div>
+            </div>
+          </div>
+      </section>
+      <section class="discography2">
+        <h3>Discography content area 2</h3>
+        <div>
+
+          <button onclick="myFunction()">Click Me</button>
+
+<!-- <div id="myDIV">
+  This is my DIV element.
+</div> -->
+          <!-- Scaled in -->
+<!-- <a id="scale-demo" href="#!" class="btn-floating btn-large scale-transition">
+  <img class="material-icons" src="./assets/images/lightbox/med-thumb3-hastaelcielo.png">
+</a>
+<a id="scale-demo-trigger" href="#!" class="btn right">Toggle Scale</a> -->
+<!-- Scaled out -->
+<!--<a id="scale-demo" href="#!" class="btn-floating btn-large scale-transition scale-out">
+  <img class="material-icons" src="./assets/images/lightbox/med-thumb3-hastaelcielo.png">
+</a> -->
+
+
+        </div>
+      </section>
+      <section class="discography3">
+        <div class="album-button">
+      <a href="#carousel" >Go to Top  </a>
+<a href="#link1">Link 1</a>
+<a href="#link2">Link 2</a>
+<a href="#link3">Link 3</a>
+
+<!-- <div>
+    <a href="#carousel" img src=".assets/images/red-x.png"></a>
+</div> -->
+
+
+<div id="link1">
+  <!-- <div  id="centered-album-detail" > class="album-box" -->
+
+  <div id="image-block">
+          <a href="#carousel"><img src="./assets/images/lightbox/tiny-thumb2-universesmiles.png" ></a>
+          <a href="#carousel"><img src="./assets/images/contodoalmundo-lrg.jpg"></a>
+          <a href="#carousel"><img src="./assets/images/lightbox/tiny-thumb3-hastaelcielo.png" ></a>
+  </div>
+
+<!--    </div> -->
+
+<p>
+  <table class="centered">
+      <caption class="album-text">
+        Con Todo El Mundo
+      </caption>
+      <tr>
+        <th scope="col">Track. No.</th>
+        <th scope="col">Track Name</th>
+        <th scope="col">Length.</th>
+      </tr>
+
+      <tr>
+        <td>1.</td>
+        <td>Como Me Quieres</td>
+        <td>3:46</td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td>Lady And Man</td>
+        <td>4:18</td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td>Maria Tanbi&#233;n</td>
+        <td>3:11</td>
+      </tr>
+      <tr>
+        <td>4.</td>
+        <td>August 10</td>
+        <td>4:25</td>
+      </tr>
+      <tr>
+        <td>5.</td>
+        <td>Como Te Quiero</td>
+        <td>4:02</td>
+      </tr>
+      <tr>
+        <td>6.</td>
+        <td>Shades Of Man</td>
+        <td>3:47</td>
+      </tr>
+      <tr>
+        <td>7.</td>
+        <td>Evan Finds The Third Room</td>
+        <td>4:00</td>
+      </tr>
+      <td>8.</td>
+      <td>A Hymn</td>
+      <td>3:10</td>
+    </tr>
+    <tr>
+      <td>9.</td>
+      <td>Rules</td>
+      <td>4:29</td>
+    </tr>
+    <tr>
+      <td>10.</td>
+      <td>Friday Morning</td>
+      <td>6:53</td>
+    </tr>
+  </table>
+
+</p>
+</div>
+</div>
+
+<div id="link2">
+  <h3>Content to Link 2</h3>
+
+  <h4>Great success!</h4>
+
+  </div>
+</div>
+
+<div id="link3">
+  <h3>Content to Link 3</h3>
+  <p>Yeah!</p>
+</div>
+
+
+        <div class="album-details">
+
+
+
+      </div>
+</div>
+      </section>
+
+
+
+
     <h1>Discography</h1>
+
+    <script src="./assets/javascripts/jquery.min.js"></script>
+<script src="./assets/javascripts/slick.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.disc-carousel').slick({
+      dots: true,
+      centerMode: true,
+      slidesToShow: 2
+    });
+  });
+</script>
+<!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="./assets/javascripts/materialize.min.js"></script>
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+      </script>
 </body>
 </html>
