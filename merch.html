@@ -45,72 +45,95 @@
       <div id="merch-title-banner">
                   <h1 class="merch-main">MERCHANDISE</h1>
       </div>
-      <div id=filter-menu>
-        <p <style>text-align: right; width: 200px; </style>>
-          filter menu goes here
+      <!-- Control buttons -->
+<div class="BtnFormatBox">
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')"> Show All</button>
+    <button class="btn" onclick="filterSelection('albums')"> Albums</button>
+    <button class="btn" onclick="filterSelection('clothing')"> Clothing</button>
+    <button class="btn" onclick="filterSelection('gear')"> Gear</button>
+  </div>
+</div>
+
+    <section id="merch-shop">
+
+      <div class="merch-shop-dist">
+
+        <h2 id="merch-h2">Merch Shop</h2>
+
+
+
+<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+
+  <div class="filterDiv clothing">
+    <!-- <div class="merch-box"> -->
+      <img src="./assets/images/merch/clothing-tee-1.png" />
+      <h3>Tee Shirt</h3>
+      <p class="description">
+          Khruangbin 100% cotton tee.
         </p>
-      </div>
+        <p class="price">
+          $11.99
+        </p>
+      <!-- </div> -->
+    </div>
 
-      <section id="merch-shop">
-        <div class="merch-shop-dist">
-
-        <h2 class="media-h2">Merch Shop</h2>
-        <div class="merch-box">
-          <img src="./assets/images/merch/clothing-tee-1.png" />
-          <h3>Tee Shirt</h3>
+    <div class="filterDiv clothing">
+    <!--   <div class="merch-box"> -->
+          <img src="./assets/images/merch/clothing-tee-2.png" />
+          <h3>Item no.2</h3>
           <p class="description">
-              Khruangbin 100% cotton tee.
+              Product description 2.
             </p>
             <p class="price">
-              $11.99
+              $XX.XX
             </p>
-          </div>
-<span>     </span>
-          <div class="merch-box">
-            <img src="./assets/images/merch/clothing-tee-2.png" />
-            <h3>Item no.2</h3>
-            <p class="description">
-                Product description 2.
+      <!-- </div> -->
+    </div>
+
+    <div class="filterDiv clothing">
+      <!-- <div class="merch-box"> -->
+        <img src="./assets/images/merch/clothing-tee-3.png" />
+        <h3>Item No.3</h3>
+        <p class="description">
+            Product description 3.
+          </p>
+          <p class="price">
+            $XX.XX
+          </p>
+      <!-- </div> -->
+    </div>
+
+    <div class="filterDiv clothing">
+      <!-- <div class="merch-box"> -->
+        <img src="./assets/images/merch/clothing-socks-4.png" />
+        <h3>Item No.4</h3>
+        <p class="description">
+            Product description 4.
+          </p>
+          <p class="price">
+            $XX.XX
+          </p>
+      <!-- </div> -->
+    </div>
+
+  <div class="filterDiv albums">
+
+    <!-- <div class="merch-box"> -->
+              <img src="./assets/images/merch/album-1.png" />
+              <h3>Item No. 5</h3>
+              <p class="description">
+                Product description 5.
               </p>
               <p class="price">
-                $XX.XX
-              </p>
-            </div>
-<span>     </span>
-            <div class="merch-box">
-              <img src="./assets/images/merch/clothing-tee-3.png" />
-              <h3>Item No.3</h3>
-              <p class="description">
-                  Product description 3.
-                </p>
-                <p class="price">
-                  $XX.XX
-                </p>
-            </div>
-<span>     </span>
-            <div class="merch-box">
-              <img src="./assets/images/merch/clothing-socks-4.png" />
-              <h3>Item No.4</h3>
-              <p class="description">
-                  Product description 4.
-                </p>
-                <p class="price">
-                  $XX.XX
-                </p>
-              </div>
-<span>     </span>
-              <div class="merch-box">
-                <img src="./assets/images/merch/album-1.png" />
-                <h3>Item No. 5</h3>
-                <p class="description">
-                  Product description 5.
-                </p>
-                <p class="price">
-                  $11.99
-                </p>
-                </div>
-<span>     </span>
-            <div class="merch-box">
+                $11.99
+    <!-- </div> -->
+
+  </div>
+
+    <div class="filterDiv albums">
+
+      <!-- <div class="merch-box"> -->
               <img src="./assets/images/merch/album-2.png" />
                 <h3>Item No.6</h3>
                 <p class="description">
@@ -119,9 +142,13 @@
                 <p class="price">
                   $XX.XX
                 </p>
-              </div>
-<span>     </span>
-              <div class="merch-box">
+      <!-- </div> -->
+
+    </div>
+
+    <div class="filterDiv albums">
+
+      <!-- <div class="merch-box"> -->
                 <img src="./assets/images/merch/album-3.jpg" />
                   <h3>Item No.7</h3>
                   <p class="description">
@@ -130,31 +157,43 @@
                   <p class="price">
                     $XX.XX
                   </p>
-                </div>
-<span>     </span>
-                <div class="merch-box">
-                  <img src="./assets/images/merch/album-4.jpg" />
-                  <h3>Item No.8</h3>
-                  <p class="description">
-                      Product description 8.
-                  </p>
-                  <p class="price">
-                    $XX.XX
-                  </p>
-                </div>
-<span>     </span>
-                <div class="merch-box">
-                  <img src="./assets/images/merch/gear-patch-1.png" />
-                    <h3>Item No.9</h3>
+      <!-- </div> -->
+
+    </div>
+
+      <div class="filterDiv albums">
+
+        <!-- <div class="merch-box"> -->
+                    <img src="./assets/images/merch/album-4.jpg" />
+                    <h3>Item No.8</h3>
                     <p class="description">
-                      Product description 9.
+                        Product description 8.
                     </p>
                     <p class="price">
                       $XX.XX
                     </p>
-                  </div>
-<span>     </span>
-                  <div class="merch-box">
+        <!-- </div> -->
+
+      </div>
+
+  <div class="filterDiv gear">
+
+    <!-- <div class="merch-box"> -->
+                <img src="./assets/images/merch/gear-patch-1.png" />
+                  <h3>Item No.9</h3>
+                  <p class="description">
+                    Product description 9.
+                  </p>
+                  <p class="price">
+                    $XX.XX
+                  </p>
+    <!-- </div> -->
+
+  </div>
+
+    <div class="filterDiv gear">
+
+      <!-- <div class="merch-box"> -->
                     <img src="./assets/images/merch/gear-sticker-2.png" />
                     <h3>Item No.10</h3>
                     <p class="description">
@@ -163,9 +202,13 @@
                     <p class="price">
                       $XX.XX
                     </p>
-                  </div>
-<span>     </span>
-                  <div class="merch-box">
+      <!-- </div> -->
+
+    </div>
+
+    <div class="filterDiv gear">
+
+      <!-- <div class="merch-box"> -->
                     <img src="./assets/images/merch/gear-poster-3.png" />
                     <h3>Item No.11</h3>
                     <p class="description">
@@ -174,25 +217,89 @@
                     <p class="price">
                         $XX.XX
                       </p>
-                    </div>
-<span>     </span>
-                    <div class="merch-box">
-                      <img src="./assets/images/merch/gear-poster-4.jpg" />
-                      <h3>Item No.12</h3>
-                      <p class="description">
-                          Product description 12.
-                      </p>
-                      <p class="price">
-                        $XX.XX
-                      </p>
-                    </div>
-                  </div>
+      <!-- </div> -->
 
+    </div>
+
+      <div class="filterDiv gear">
+
+        <!-- <div class="merch-box"> -->
+                        <img src="./assets/images/merch/gear-poster-4.jpg" />
+                        <h3>Item No.12</h3>
+                        <p class="description">
+                            Product description 12.
+                        </p>
+                        <p class="price">
+                          $XX.XX
+                        </p>
+        <!-- </div> -->
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+      </div>
       </section>
 
   </div>
 
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
 
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current control button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
 
     </body>
     </html>

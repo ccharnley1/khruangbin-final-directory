@@ -779,8 +779,8 @@ body.merch-body{
   background-image: url(../images/merch/hindu-temple-merch.png);
   /*background-color: #cccccc; */
   /* Used if the image is unavailable */
-  height: 2400px; /* You must set a specified height */
- max-width: 1400px;
+  height: 3200px; /* You must set a specified height */
+  max-width: 1400px;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -789,19 +789,22 @@ body.merch-body{
 
 
 #merch-title-banner{
-  height: 100px;
+  display: inline-block;
+  height: 120px;
   position: relative;
   left: 200px;
-  top: 40px;
+  top: 80px;
   /*padding: 10px;
   margin-left: 10px;*/
   /*left: 200px;*/
 background-color: rgba(255,255,255,0.6);
-width: 80%;
+
+width: 800px;
 margin-left: 10px
 padding: 10px;
 
 }
+
 h1.merch-main {
 
   font-family: "Futura", sans-serif;
@@ -809,86 +812,152 @@ h1.merch-main {
   color: rgba(255,255,255,1);
   font-weight: lighter;
   position: relative;
-  top: 40px;
-  left: 80px;
+  left: 70px;
 
 }
 
-#merch-shop{
+#merch-h2 {
+  font-family: "Futura", sans-serif;
+  font-size: 2.6em;
+  color: rgba(0,0,0,1);
+  font-weight: lighter;
+  position: relative;
+  top: 20px;
+  left: 40px;
+
+
+}
+
+/*#merch-shop{
  position: relative;
+  top: 100px;
+  left: 100px;
  width: 1200px;
  margin: auto;
-  height: auto;
-  /*max-height: 2400px*/
-  padding: 30px;
-  left: 100px;
-  top: 100px;
+  max-height: 2600px
+  padding: 10px;
+
   background-color: rgba(255,255,255,100);
 
-
-}
-
-div.merch-shop-dist {
-width: 100%
-padding: 20px;
-margin:auto;
-
-}
-
-div.merch-box {
-  display: inline-block;
-  width: 350px;
-  height: 525px;
-  margin: auto;
-  border: 2px  rgba(0,0,0,1);
-  padding: 20px;
-  text-align: center;
-  box-shadow: 2.5px 2.5px 3px rgba(0,0,0,0.5);
-}
-
-/*#merch-box {
-  position: relative;
-  display: inline-block;
-  width: 350px;
-  height: 500px;
-  margin: auto;
-  border: 2px  rgba(0,0,0,1);
-  padding: 10px;
-  text-align: center;
-  box-shadow: 2.5px 2.5px 3px rgba(0,0,0,0.5);
 }*/
 
-.merch-box img {
+div.merch-shop-dist {
+
+  margin-top: 20px
+overflow: hidden;
+/*display: block;
+width: 100%;
+border: 20px;
+padding: 10px;
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px; */
+
+
+
+}
+
+
+.filterDiv img {
 
   padding: 10px;
   margin: auto;
 }
 
-.merch-box h3 {
+.filterDiv h3 {
 
+  font-family: "Futura", sans-serif;
+  text-align: center;
+
+}
+
+.filterDiv p {
+
+  margin-left: 10px;
+  text-align: left;
+
+}
+
+p.price {
+  font-family: "Futura", sans-serif;
+font-size: smaller;
 text-align: center;
 
 }
-
-
-.merch-box p {
-
-text-align: left;
-
+/* === START CODE FOR FILTER ELEMENTS ===*/
+.container {
+  overflow: hidden;
 }
 
 
-/*#merch-shop {
-  height: 800px;
+/*div.myBtnContainer {
+
+display: inline;
+position: relative;
+padding: 10px;
+margin-right: 200px;*/
+/*top: 50px; left: 500px;
+
+
+}*/
+
+.filterDiv {
+  float: left;
+  background-color: #ffffff;
+  color: #000000;
+  width: 350px;
+  height: 525px;
+  text-align: center;
+  margin: 18px;
+  padding: 10px;
+  display: none; /* Hidden by default */
+  border: 2px  rgba(0,0,0,1);
+    box-shadow: 2.5px 2.5px 3px rgba(0,0,0,0.5);
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
   position: relative;
-  left: 200px;
+  top: 120px;
+  width: 140px;
+  padding: 10px 25px;
+  transform: scale(1.25);
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+
+/* === End Code for Filter Elements functions ===*/
+
+#merch-shop {
+  height: 2400px;
+  position: relative;
   top: 200px;
+  left: 100px;
 background-color: rgba(255,255,255,100);
 width: 1200px;
 margin: auto;
 padding: 20px;
 
-}*/
+}
 
 h2.merch-h2{
   font-family: "Futura", sans-serif;
@@ -900,6 +969,14 @@ h2.merch-h2{
 
 }
 
+#myBtnContainer {
+
+display: inline;
+float:right;
+margin-right: 18px;
+
+
+}
 
 
 
