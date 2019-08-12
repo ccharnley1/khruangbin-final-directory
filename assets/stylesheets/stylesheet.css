@@ -906,4 +906,17 @@ h2.merch-h2{
 /* ==== End of Styling for Merchandise Page ==== */
 
 /* ==== BEGIN STYLING FOR TOUR  PAGE ===== */
+body.tour-body{
+
+  background-image: url(../images/tour-plane-bg.png);
+  /*background-color: #cccccc; */
+  /* Used if the image is unavailable */
+  height: 2400px; /* You must set a specified height */
+ max-width: 1400px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+
+}
+
 /* ==== End of Styling for Tour Page ==== */
