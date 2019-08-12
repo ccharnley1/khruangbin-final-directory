@@ -684,18 +684,43 @@ body.media-body{
 /* ====jquery forLIGHTBOX EFF begins ===*/
 @import ("lightbox.min.css");
 
-#media-carousel {
-  height: 560px;
+#media-title-banner{
+  height: 100px;
   position: relative;
-  left: 100px;
-  top: 50px;
+  left: 200px;
+  top: 40px;
   /*padding: 10px;
   margin-left: 10px;*/
   /*left: 200px;*/
-background-color: rgba(255,255,255,100);
-width: 1200px;
-margin: auto;
-padding: 20px;
+background-color: rgba(255,255,255,0.6);
+width: 50%;
+margin-left: 10px
+padding: 10px;
+
+}
+h1.media-main {
+
+  font-family: "Futura", sans-serif;
+  font-size: 3.75em;
+  color: rgba(0,216,255,1);
+  font-weight: lighter;
+  position: relative;
+  top: 40px;
+  left: 80px;
+
+}
+
+#media-carousel {
+
+  height: 560px;
+  position: relative;
+  left: 100px;
+  top: 100px;
+  background-color: rgba(255,255,255,100);
+  width: 1200px;
+  margin: auto;
+  padding: 20px;
+
 }
 
 div.carousel-photos {
@@ -710,18 +735,40 @@ div.carousel-photos {
 }
 
 #videos {
-  height: 500px;
+  height: 800px;
   position: relative;
   left: 100px;
-  top: 100px;
-  /*padding: 10px;
-  margin-left: 10px;*/
-  /*left: 200px;*/
+  top: 200px;
 background-color: rgba(255,255,255,100);
 width: 1200px;
 margin: auto;
 padding: 20px;
 }
+
+h2.media-h2{
+  font-family: "Futura", sans-serif;
+  font-size: 2.6em;
+  color: rgba(0,0,0,1);
+  font-weight: lighter;
+  position: relative;
+  left: 60px;
+
+}
+
+div.video-format{
+
+padding:20px;
+margin: 0px;
+
+}
+
+.video-format iframe{
+
+  padding: 10px;
+  margin: auto;
+
+}
+
 /* ==== End of Styling for Media Page ==== */
 
 
