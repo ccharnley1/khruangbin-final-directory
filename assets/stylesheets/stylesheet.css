@@ -829,7 +829,7 @@ h1.merch-main {
 }
 
 div.merch-shop-dist {
-
+width: 100%
 padding: 20px;
 margin:auto;
 
@@ -838,7 +838,7 @@ margin:auto;
 div.merch-box {
   display: inline-block;
   width: 350px;
-  height: 500px;
+  height: 525px;
   margin: auto;
   border: 2px  rgba(0,0,0,1);
   padding: 20px;
