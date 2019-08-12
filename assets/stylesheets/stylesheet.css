@@ -505,14 +505,15 @@ body.discography-body{
  max-width: 1400px;
     background-position: 50% 0%;/* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  /*background-size: cover;*/
+  background-size: cover;
 
 }
 
 section.discography1 {
   height: 450px;
   position: relative;
-  width: 1000px;
+  width: 1200px;
+  left: 100px;
   margin: auto;
   /*padding: 10px;
   margin-left: 10px;*/
@@ -773,6 +774,18 @@ margin: 0px;
 
 
 /* ==== BEGIN STYLING FOR MERCHANDISE PAGE ===== */
+body.merch-body{
+  background-image: url(../images/prang-wat-un-temple.png);
+  /*background-color: #cccccc; */
+  /* Used if the image is unavailable */
+  height: 2400px; /* You must set a specified height */
+ max-width: 1400px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+
+
+}
 /* ==== End of Styling for Merchandise Page ==== */
 
 /* ==== BEGIN STYLING FOR TOUR  PAGE ===== */
