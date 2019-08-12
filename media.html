@@ -1,46 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"  />
-  <title>Media</title>
-  <link href="./assets/stylesheets/stylesheet.css" rel="stylesheet"/>
+    <meta charset="utf-8"  />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Media</title>
+      <link href="./assets/stylesheets/stylesheet.css" rel="stylesheet"/>
+      <!-- <link href="./assets/stylesheets/lightbox.css" rel="stylesheet" /> -->
   <!--[if lt IE 9]>
     <script src="http:html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+  <!-- <link href="./assets/stylesheets/lightbox.min.css" rel="stylesheet" /> -->
+<!-- <link href="./assets/stylesheets/main-styles.css" /> -->
 </head>
-<body>
-  <header>
-    <nav>
-          <ul id="menu">
+  <body class="media-body">
+  <div id="container">
+    <div id="page">
+        <!-- ==== START MASTHEAD   ====-->
+        <header id="masthead" role="banner">
 
-            <li class="top-link">
-                <a href="index.html">Khruangbin Icon</a>
-            </li>
 
-            <li class="top-link">
-              <a href="about.html">About</a>
-            </li>
+        <div>
+          <nav>
 
-            <li class="top-link">
-                <a href="discography.html">Discography</a>
-            </li>
+            <div class="top-link-homeicon">
+                <a href="index.html">
+                <img class="textlogo" src="./assets/images/logotype-w-shdw.png"  alt="Khruangbin" >
+                <img class="planeicon" src="./assets/images/planeicon-w-shdw.png" alt="Khruangbin Home" >
+              </a>
+            </div>
 
-            <li class="top-link">
-              <a href="merch.html">Merchandise</a>
-            </li>
+                <ul id="menu">
 
-            <li class="top-link">
-              <a class="media.html" href="#">Media</a>
-              </li>
+                  <li class="top-link"><a href="about.html">About</a></li>
+                  <li class="top-link"><a href="discography.html">Discography</a></li>
+                  <li class="top-link"><a href="merch.html">Merchandise</a></li>
+                  <li class="top-link"><a href="media.html">Media</a></li>
+                  <li class="top-link"><a href="tour.html">Tour</a></li>
 
-            <li class="top-link">
-              <a href="tour.html">Tour</a>
-            </li>
+                </ul>
+            </nav>
 
-          </ul>
-      </nav>
+      </div>
+    </header>
+      <!-- end #masthead  -->
+      <div id="main" role="main">
 
-  </header>
+        <section id="media-carousel">
+          <h1>Section 1 Content</h1>
+
+          <h1>jQuery Lightbox</h1>
+
+    <a href="./assets/images/lightbox/media1-aquabg.jpg" data-lightbox="Khruangbin" data-title="Khruangbin Trio">
+      <img src="./assets/images/lightbox/thumb1-media1-aquabg.jpg" />
+    </a>
+
+    <a href="./assets/images/lightbox/media2-purplebg.png" data-lightbox="Khruangbin" data-title="Friday Morning">
+      <img src="./assets/images/lightbox/thumb2-media2-purplebg.png" />
+    </a>
+    <a href="./assets/images/lightbox/media3-grassyfadedbg.jpg" data-lightbox="Khruangbin" data-title="Kodachrome Burnout">
+      <img src="./assets/images/lightbox/thumb3-media3-grassyfadedbg.png" />
+    </a>
+    <a href="./assets/images/lightbox/media4-skybg.jpg" data-lightbox="Khruangbin" data-title="remy bear cow pig">
+      <img src="./assets/images/lightbox/thumb4-media4-skybg.png" />
+    </a>
+
+
+        </section>
+        <section>
+          <h1> Section 2 Content</h1>
+        </section>
+      </div>
     <h1>Media</h1>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./assets/javascripts/lightbox.min.js"></script>
+    <script>
+lightbox.option({
+  'maxWidth' : 400,
+})
+<script>
+
 </body>
 </html>

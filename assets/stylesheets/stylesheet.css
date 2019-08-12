@@ -669,6 +669,41 @@ caption.album-text {
 
 
 /* ==== BEGIN STYLING FOR MEDIA PAGE ===== */
+body.media-body{
+  background-image: url(../images/prang-wat-un-temple.png);
+  /*background-color: #cccccc; */
+  /* Used if the image is unavailable */
+  height: 2400px; /* You must set a specified height */
+ max-width: 1400px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  /*background-size: cover;*/
+
+
+}
+/* ====jquery forLIGHTBOX EFF begins ===*/
+@import ("lightbox.min.css");
+
+#media-carousel {
+  height: 560px;
+  position: relative;
+  left: 150px;
+  top: 0px;
+  /*padding: 10px;
+  margin-left: 10px;*/
+  /*left: 200px;*/
+background-color: rgba(255,255,255,100);
+width: 1200px;
+margin-top: 20px;
+margin-bottom: 50px;
+margin-right: 20px;
+margin-left: 40px;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 50px;
+}
+
 /* ==== End of Styling for Media Page ==== */
 
 
