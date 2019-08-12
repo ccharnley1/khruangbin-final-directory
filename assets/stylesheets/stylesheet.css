@@ -775,7 +775,8 @@ margin: 0px;
 
 /* ==== BEGIN STYLING FOR MERCHANDISE PAGE ===== */
 body.merch-body{
-  background-image: url(../images/prang-wat-un-temple.png);
+
+  background-image: url(../images/merch/hindu-temple-merch.png);
   /*background-color: #cccccc; */
   /* Used if the image is unavailable */
   height: 2400px; /* You must set a specified height */
@@ -784,8 +785,124 @@ body.merch-body{
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
 
+}
+
+
+#merch-title-banner{
+  height: 100px;
+  position: relative;
+  left: 200px;
+  top: 40px;
+  /*padding: 10px;
+  margin-left: 10px;*/
+  /*left: 200px;*/
+background-color: rgba(255,255,255,0.6);
+width: 80%;
+margin-left: 10px
+padding: 10px;
 
 }
+h1.merch-main {
+
+  font-family: "Futura", sans-serif;
+  font-size: 3.75em;
+  color: rgba(255,255,255,1);
+  font-weight: lighter;
+  position: relative;
+  top: 40px;
+  left: 80px;
+
+}
+
+#merch-shop{
+ position: relative;
+ width: 1200px;
+ margin: auto;
+  height: auto;
+  /*max-height: 2400px*/
+  padding: 30px;
+  left: 100px;
+  top: 100px;
+  background-color: rgba(255,255,255,100);
+
+
+}
+
+div.merch-shop-dist {
+
+padding: 20px;
+margin:auto;
+
+}
+
+div.merch-box {
+  display: inline-block;
+  width: 350px;
+  height: 500px;
+  margin: auto;
+  border: 2px  rgba(0,0,0,1);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 2.5px 2.5px 3px rgba(0,0,0,0.5);
+}
+
+/*#merch-box {
+  position: relative;
+  display: inline-block;
+  width: 350px;
+  height: 500px;
+  margin: auto;
+  border: 2px  rgba(0,0,0,1);
+  padding: 10px;
+  text-align: center;
+  box-shadow: 2.5px 2.5px 3px rgba(0,0,0,0.5);
+}*/
+
+.merch-box img {
+
+  padding: 10px;
+  margin: auto;
+}
+
+.merch-box h3 {
+
+text-align: center;
+
+}
+
+
+.merch-box p {
+
+text-align: left;
+
+}
+
+
+/*#merch-shop {
+  height: 800px;
+  position: relative;
+  left: 200px;
+  top: 200px;
+background-color: rgba(255,255,255,100);
+width: 1200px;
+margin: auto;
+padding: 20px;
+
+}*/
+
+h2.merch-h2{
+  font-family: "Futura", sans-serif;
+  font-size: 2.6em;
+  color: rgba(0,0,0,1);
+  font-weight: lighter;
+  position: relative;
+  left: 60px;
+
+}
+
+
+
+
 /* ==== End of Styling for Merchandise Page ==== */
 
 /* ==== BEGIN STYLING FOR TOUR  PAGE ===== */
