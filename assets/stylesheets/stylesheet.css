@@ -677,7 +677,7 @@ body.media-body{
  max-width: 1400px;
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  /*background-size: cover;*/
+  background-size: cover;
 
 
 }
@@ -687,23 +687,41 @@ body.media-body{
 #media-carousel {
   height: 560px;
   position: relative;
-  left: 150px;
-  top: 0px;
+  left: 100px;
+  top: 50px;
   /*padding: 10px;
   margin-left: 10px;*/
   /*left: 200px;*/
 background-color: rgba(255,255,255,100);
 width: 1200px;
-margin-top: 20px;
-margin-bottom: 50px;
-margin-right: 20px;
-margin-left: 40px;
-padding-top: 20px;
-padding-right: 20px;
-padding-bottom: 20px;
-padding-left: 50px;
+margin: auto;
+padding: 20px;
 }
 
+div.carousel-photos {
+  margin: auto;
+  padding: 20px;
+
+}
+
+.carousel-photos img {
+  margin: 20px;
+  padding: 10px;
+}
+
+#videos {
+  height: 500px;
+  position: relative;
+  left: 100px;
+  top: 100px;
+  /*padding: 10px;
+  margin-left: 10px;*/
+  /*left: 200px;*/
+background-color: rgba(255,255,255,100);
+width: 1200px;
+margin: auto;
+padding: 20px;
+}
 /* ==== End of Styling for Media Page ==== */
 
 
