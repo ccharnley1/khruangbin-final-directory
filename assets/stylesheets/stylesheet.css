@@ -147,19 +147,19 @@ margin-left: 45%;*/
 
 /* ==== SET BG IMAGE HOME PAGE  ====  */
 
-/* body.home-body{
+body.home-body{
   background-image: url(../images/sierra.jpg);
   /*background-color: #cccccc; */
   /* Used if the image is unavailable */
-  /*height: 2400px; *//* You must set a specified height */
+  height: 2400px; /* You must set a specified height */
 /* Center the image */
 
-  /*background-repeat: no-repeat; *//* Do not repeat the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
   /*background-size: cover;*/
-    /*background-position: 50% 0%;
+    background-position: 50% 0%;
   max-width: 1400px;
 
-}*/
+}
 /* End set bg image Home page */
 
 /*==== STYLE HOME LANDING PAGE === */
@@ -500,11 +500,11 @@ body.discography-body{
   background-image: url(../images/discography-bg-img-ottercove.png);
   /*background-color: #cccccc; */
   /* Used if the image is unavailable */
-  height: 2400px; /* You must set a specified height */
+  height: 3200px; /* You must set a specified height */
 
  max-width: 1400px;
     background-position: 50% 0%;/* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-repeat: repeat; /* Do not repeat the image */
   background-size: cover;
 
 }
@@ -528,20 +528,50 @@ padding-top: 20px;
 padding-right: 20px;
 padding-bottom: 20px;
 padding-left: 50px;*/
+padding: 50px;
 }
 
-#link1 {
+#modal1 {
 
   background-color: white;
   position: relative;
+  top: 80px;
   width: 1200px;
-  height: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 15px solid green;
+  height: 1000px;
+  border: 2px solid gray;
   padding: 20px;
+  margin-left: auto;
   z-index: -1;
 
+}
+
+
+#modal2 {
+
+  background-color: white;
+  position: relative;
+  top: 120px;
+  width: 1200px;
+  height: 1100px;
+  border: 2px solid gray;
+  padding: 20px;
+  margin-left: auto;
+  z-index: -1;
+
+}
+
+
+#modal3 {
+
+  background-color: white;
+  position: relative;
+  top: 200px;
+  width: 1200px;
+  height: 1000px;
+  border: 2px solid gray;
+  padding: 20px;
+  margin-left: auto;
+  z-index: -1;
 }
 #image-block {
   display: inline-block;
@@ -563,7 +593,7 @@ padding: 50px;
   width: 500px;
   height: 500px;
 margin: auto;
-border: 15px solid green;
+  border: 2px solid gray;
 padding: 10px;
 text-align: center;
 box-shadow: 2.5px 2.5px 3px rgba(0,0,0,0.5);
@@ -743,18 +773,10 @@ div.carousel-photos {
 background-color: rgba(255,255,255,100);
 width: 1200px;
 margin: auto;
-padding: 40px;
+padding: 20px;
 }
 
-div.video-format {
-
-  position: relative;
-  margin: auto;
-  padding: 40px;
-
-}
-
-h2.media-h2 {
+h2.media-h2{
   font-family: "Futura", sans-serif;
   font-size: 2.6em;
   color: rgba(0,0,0,1);
@@ -1003,129 +1025,5 @@ body.tour-body{
   background-size: cover;
 
 }
-
-#tour-title-banner{
-  display: inline-block;
-  height: 120px;
-  position: relative;
-  left: 200px;
-  top: 70px;
-  /*padding: 10px;
-  margin-left: 10px;*/
-  /*left: 200px;*/
-background-color: rgba(255,255,255,0.6);
-
-width: 800px;
-margin-left: 10px
-padding: 0px;
-
-}
-
-h1.tour-main {
-
-  font-family: "Futura", sans-serif;
-  font-size: 3.75em;
-  color: rgba(255,255,255,1);
-  font-weight: lighter;
-  position: relative;
-  left: 60px;
-
-}
-section.tour-article1 {
-  height: 560px;
-  position: relative;
-  left: 100px;
-  top: 150px;
-  /*padding: 10px;
-  margin-left: 10px;*/
-  /*left: 200px;*/
-background-color: rgba(255,255,255,1);
-width: 1200px;
-margin: auto;
-padding: 40px
-}
-
-img.tour-photo {
-    display: inline-block;
-  position: relative;
-  float: left;
-  /*left: 20px;
-  right: 20px;*/
-  height: 350px;
-  width: 550px;
-  border: 0px;
-  padding: 10px;
-  margin: 0px;
-  margin-right: 10px;
-}
-
-#page {
-  font-family: "American typewriter", serif;
-  font-size: 1.4em;
-  line-height: 1.4em;
-}
-
-#tour-h2 {
-  font-family: "Futura", sans-serif;
-  font-size: 2em;
-  /*color: rgba(253,230,171,100);*/
-  font-weight: lighter;
-  position: relative;
-  /*left: 200px;*/
-
-}
-
-div.tour-section1 {
-  /*font-family: "American typewriter", serif;
-  font-size: 1.25em;
-  line-height: 1.6em;*/
-  display: block;
-  padding-left: 20px;
-  /*margin: 8px;
-  left: 40px;*/
-  /*position: relative;*/
-  /*left: 600px;*/
-}
-section.tour-article2 {
-
-  position: relative;
-  left: 100px;
-  top: 200px;
-  height: 900px;
-  /*padding: 10px;
-  margin-left: 10px;*/
-  /*left: 200px;*/
-background-color: rgba(255,255,255,1);
-width: 1200px;
-margin: auto;
-padding: 20px
-}
-
-#tourdates-table {
-
-  font-family: "Futura", sans-serif;
-  font-size: smaller;
-  text-align:left;
-
-}
-#tourdates-table  table{
-  border-collapse: collapse;
-  width: 100%;
-}
-
-#tourdates-table th {
-  height: 60px;
-  margin: 8px;
-  padding: 8px;
-  left: 4px;
-  border: 1px solid black;
-}
-
-#tourdates-table tr {
-  height: 60px;
-}
-
-
-
 
 /* ==== End of Styling for Tour Page ==== */
