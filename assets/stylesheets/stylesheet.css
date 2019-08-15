@@ -1070,7 +1070,7 @@ h1.tour-main {
 
 
 section.tour-article1 {
-  height: 600px;
+  height: 800px;
   position: relative;
   top: 200px;
   left: 100px;
@@ -1082,9 +1082,9 @@ padding: 20px;
 }
 
 section.tour-article2 {
-  height: 1200px;
+  height: 800px;
   position: relative;
-  top: 200px;
+  top: 300px;
   left: 100px;
 background-color: rgba(255,255,255,100);
 width: 1200px;
@@ -1092,6 +1092,21 @@ margin: auto;
 padding: 20px;
 
 }
+
+img.tour-photo {
+
+display: inline-block;
+padding: 20px;
+
+}
+
+div.tour-section1 {
+
+  display: inline-block;
+  padding: 20px;
+
+}
+
 
 h2.tour-h2{
   font-family: "Futura", sans-serif;
@@ -1106,13 +1121,29 @@ h2.tour-h2{
 #tourdates-table {
   font-family: "Futura", sans-serif;
   font-size: smaller;
-  line-height: 1.6rem;
+  line-height: 1.8rem;
   color: rgba(0,0,0,1);
   font-weight: lighter;
   position: relative;
   top: 20px;
   left: 40px;
-
+  padding: 0px;
 
 }
+
+  .tourdates-table table {
+  width: 100%;
+}
+
+  .tourdates-table th {
+  height: 60px;
+  border-collapse: collapse;
+    border: 1px solid black;
+}
+.tourdates-table tr {
+height: 50px;
+
+}
+
+
 /* ==== End of Styling for Tour Page ==== */
